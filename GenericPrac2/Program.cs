@@ -18,12 +18,14 @@ namespace GenericPrac2
     {
         static void Main(string[] args)
         {
+
             Wanted<string> wantedString = new Wanted<string>("Greeting");
             Wanted<int> wantedInt = new Wanted<int>(100);
             Wanted<double> wantedDouble = new Wanted<double>(3.141596);
             Console.WriteLine("문자열 : " + wantedString.Value);
             Console.WriteLine("문자열 : " + wantedInt.Value);
             Console.WriteLine("문자열 : " + wantedDouble.Value);
+        
         }
     }
 }
